@@ -15,12 +15,14 @@
 ## ⚙️ Быстрая установка
 
 1. Скачай или клонируй репозиторий:
-   ```bash
-   git clone https://github.com/arbitron-adm/orderbook_plus.git
-   ```
-2. Открой браузер (Chrome или совместимый) и перейди на:
+   - [Скачать ZIP](https://github.com/arbitron-adm/orderbook_plus/archive/refs/heads/main.zip)
+   - Или через Git:
+     ```bash
+     git clone https://github.com/arbitron-adm/orderbook_plus.git
+     ```
+3. Открой браузер (Chrome или совместимый) и перейди на:
    ```
    chrome://extensions/
    ```
-3. Включи **режим разработчика**.
-4. Нажми **"Загрузить распакованное расширение"** и выбери папку проекта.
+4. Включи **режим разработчика**.
+5. Нажми **"Загрузить распакованное расширение"** и выбери папку проекта.
