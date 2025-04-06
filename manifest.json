@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "MEXC OrderBook+",
+    "version": "1.0",
+    "description": "Расширение для улучшения дизайна стакана ордеров на MEXC.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.mexc.com/*/futures/*?type=linear_swap"],
+        "js": ["mexc_futures.js"],
+        "css": ["custom.css"]
+      },
+      {
+        "matches": ["https://www.mexc.com/*/exchange/*"],
+        "js": ["mexc_spot.js"],
+        "css": ["custom.css"]
+      }
+    ]
+  }
+  

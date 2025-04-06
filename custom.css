@@ -1,0 +1,55 @@
+/* ----------------------- CSS стили ----------------------- */
+
+/* Flex-верстка для заголовков и строк ордеров */
+.market_tableHeader__T2Md5,
+.market_tableRow__Uuhwj {
+  display: flex;
+}
+
+/* Равномерное распределение столбцов */
+.market_tableHeader__T2Md5 > div,
+.market_tableRow__Uuhwj > div {
+  flex: 1;
+  text-align: center;
+}
+
+/* Фон строк в темной теме */
+.market_tableRow__Uuhwj {
+  background-color: #1e1e1e; /* базовый темный фон */
+  transition: background-color 0.3s ease;
+}
+
+/* Фон при наведении — более светлый, но все еще темный */
+.market_tableRow__Uuhwj:hover {
+  background-color: #2a2a2a;
+}
+
+/* Цвета для цены ордеров */
+.market_sell__SZ_It {
+  color: #ff4d4f; /* красный для продаж */
+}
+
+.market_buy__F9O7S {
+  color: #52c41a; /* зелёный для покупок */
+}
+
+/* Стилизация заголовков — светлый текст для темной темы */
+.market_headerText__o04y_ {
+  font-weight: bold;
+  color: #e6f7ff;
+}
+
+/* Крупные ордера — приятный голубой акцент */
+.big-volume {
+    border-bottom: 2px solid #40a9ff; /* насыщенно-голубой */
+  }
+  
+  /* Огромные ордера (стенки) — яркий фиолетовый */
+.huge-volume {
+border-bottom: 2px solid #d83aeb; /* фиолетово-розовый, резко выделяется */
+}
+
+/* Подсветка кластеров — красная пунктирная обводка */
+.cluster {
+  outline: 2px dashed #ff4d4f;
+}
